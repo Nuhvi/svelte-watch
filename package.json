@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "svelte-watch",
+  "description": "Discover and compare the best Svelte and Sapper libraries and celebrate every one of them.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
