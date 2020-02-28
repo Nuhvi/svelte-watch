@@ -1,18 +1,23 @@
 <script>
+  import { selectedTags } from "../data/stores";
   export let tag;
   export let isSelected = false;
-  export let clickHandler = () => {};
-  import { fade } from "svelte/transition";
+
+  export let clickHandler = () => {
+    isSelected ? $selectedTags.remove(tag) : $selectedTags.add(tag);
+    $selectedTags = $selectedTags;
+  };
 </script>
 
 <style>
   a {
     text-transform: capitalize;
     display: inline-block;
+    font-size: 0.9em;
     font-weight: 500;
     color: rgba(255, 62, 0, 0.5);
     background: rgba(255, 62, 0, 0.18);
-    padding: 0.25em 1em;
+    padding: 0.2em 0.7em;
     border-radius: 100em;
   }
 

@@ -1,6 +1,7 @@
 <script>
   import { filteredLibraries, filteredLibrariesCount } from "../data/stores";
   import Filters from "../containers/Filters";
+  import Library from "../components/Library";
 </script>
 
 <style>
@@ -35,7 +36,7 @@
     </p>
     <ul>
       {#each $filteredLibraries as library}
-        <li>{library.name}</li>
+        <Library {library} />
       {/each}
     </ul>
   </section>

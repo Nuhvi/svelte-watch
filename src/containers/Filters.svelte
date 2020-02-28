@@ -10,21 +10,11 @@
   const clearAllTags = () => {
     $selectedTags = new Set();
   };
-
-  const deselectTag = tag => {
-    $selectedTags.delete(tag);
-    $selectedTags = $selectedTags;
-  };
-
-  const selectTag = tag => {
-    $selectedTags.add(tag);
-    $selectedTags = $selectedTags;
-  };
 </script>
 
 <style>
   aside {
-    max-width: 200px;
+    min-width: 200px;
     margin-right: 2rem;
   }
   h2 {
@@ -79,14 +69,14 @@
     {#if someTagsSelected}
       {#each sortedSelectedTags as tag (tag)}
         <li>
-          <Tag {tag} clickHandler={e => deselectTag(tag)} isSelected={true} />
+          <Tag {tag} isSelected={true} />
         </li>
       {/each}
       <br />
     {/if}
     {#each notSelectedTags as tag (tag)}
       <li>
-        <Tag {tag} clickHandler={e => selectTag(tag)} />
+        <Tag {tag} />
       </li>
     {/each}
   </ul>
