@@ -3,12 +3,11 @@
   export let isSelected = false;
   export let clickHandler = () => {};
   import { fade } from "svelte/transition";
-
-  $: capitalizedTag = tag[0].toUpperCase() + tag.slice(1);
 </script>
 
 <style>
   a {
+    text-transform: capitalize;
     display: inline-block;
     font-weight: 500;
     color: rgba(255, 62, 0, 0.5);
@@ -23,6 +22,4 @@
   }
 </style>
 
-<a on:click|preventDefault={clickHandler} href="\" class:isSelected>
-  {capitalizedTag}
-</a>
+<a on:click|preventDefault={clickHandler} href="\" class:isSelected>{tag}</a>

@@ -1,5 +1,5 @@
 <script>
-  import { allTags, selectedTags } from "../data/stores";
+  import { allTags, selectedTags, searchInput } from "../data/stores";
   import Tag from "../components/Tag";
 
   $: sortedSelectedTags = Array.from($selectedTags);
@@ -24,7 +24,12 @@
 
 <style>
   aside {
+    max-width: 200px;
     margin-right: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+    color: #b3b3b3;
   }
 
   h2 a {
@@ -34,16 +39,33 @@
   .clear {
     display: inline-block;
     color: rgba(255, 62, 0, 0.8);
-    font-size: 1rem;
     font-weight: 500;
   }
 
   li {
     margin-bottom: 0.5em;
   }
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 100em;
+    margin-bottom: 1em;
+    font-family: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  input:focus {
+    outline: none;
+  }
 </style>
 
 <aside>
+  <h2>Filter</h2>
+  <input placeholder="Search" bind:value={$searchInput} />
   <h2>
     Tags
     <a
