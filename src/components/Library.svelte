@@ -1,6 +1,11 @@
 <script>
+  import { selectedTags } from "../data/stores";
   import Tag from "./Tag";
   export let library = {};
+
+  const clickHandler = tag => {
+    $selectedTags = new Set([tag]);
+  };
 </script>
 
 <style>
@@ -36,9 +41,9 @@
   </header>
   <p>
     {library.description}
-    {#each library.tags as tag}
+    {#each library.tags as tag (tag)}
       <span class="tag">
-        <Tag {tag} />
+        <Tag {tag} clickHandler={e => clickHandler(tag)} />
       </span>
     {/each}
   </p>

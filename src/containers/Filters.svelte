@@ -10,6 +10,16 @@
   const clearAllTags = () => {
     $selectedTags = new Set();
   };
+
+  const deselectTag = tag => {
+    $selectedTags.delete(tag);
+    $selectedTags = $selectedTags;
+  };
+
+  const selectTag = tag => {
+    $selectedTags.add(tag);
+    $selectedTags = $selectedTags;
+  };
 </script>
 
 <style>
@@ -69,14 +79,14 @@
     {#if someTagsSelected}
       {#each sortedSelectedTags as tag (tag)}
         <li>
-          <Tag {tag} isSelected={true} />
+          <Tag {tag} clickHandler={e => deselectTag(tag)} isSelected={true} />
         </li>
       {/each}
       <br />
     {/if}
     {#each notSelectedTags as tag (tag)}
       <li>
-        <Tag {tag} />
+        <Tag {tag} clickHandler={e => selectTag(tag)} />
       </li>
     {/each}
   </ul>

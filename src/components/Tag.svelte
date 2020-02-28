@@ -2,11 +2,7 @@
   import { selectedTags } from "../data/stores";
   export let tag;
   export let isSelected = false;
-
-  export let clickHandler = () => {
-    isSelected ? $selectedTags.remove(tag) : $selectedTags.add(tag);
-    $selectedTags = $selectedTags;
-  };
+  export let clickHandler = () => {};
 </script>
 
 <style>
