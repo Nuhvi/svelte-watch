@@ -1,5 +1,10 @@
 <script>
-  import { tags, libraries } from "../data/stores";
+  import {
+    sortedSelectedTags,
+    notSelectedTags,
+    filteredLibraries
+  } from "../data/stores";
+  import Tag from "../components/Tag";
 </script>
 
 <style>
@@ -16,8 +21,13 @@
   <aside>
     <h2>Tags</h2>
     <ul>
-      {#each Object.keys($tags) as tag}
-        <li class:selected={$tags[tag].isSelected}>{tag}</li>
+      {#each $sortedSelectedTags as tag}
+        <Tag {tag} />
+      {/each}
+    </ul>
+    <ul>
+      {#each $notSelectedTags as tag}
+        <Tag {tag} />
       {/each}
     </ul>
   </aside>
@@ -25,7 +35,7 @@
   <section>
     <h1>Svelte Libraries</h1>
     <ul>
-      {#each $libraries as library}
+      {#each $filteredLibraries as library}
         <li>{library.name}</li>
       {/each}
     </ul>

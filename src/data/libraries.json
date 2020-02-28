@@ -7,5 +7,14 @@
     "stars": 28,
     "downloads": 422,
     "last_updated": "2020-02-12T04:57:03Z"
+  },
+  {
+    "name": "svelte-else",
+    "url": "https://github.com/henriquehbr/svelte-typewriter",
+    "description": "A simple and reusable typewriter effect for your Svelte applications",
+    "tags": ["else"],
+    "stars": 28,
+    "downloads": 422,
+    "last_updated": "2020-02-12T04:57:03Z"
   }
 ]
