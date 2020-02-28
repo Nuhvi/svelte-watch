@@ -1,15 +1,19 @@
 <script>
-  import {
-    sortedSelectedTags,
-    notSelectedTags,
-    filteredLibraries
-  } from "../data/stores";
-  import Tag from "../components/Tag";
+  import { filteredLibraries, filteredLibrariesCount } from "../data/stores";
+  import Tags from "../containers/Tags";
 </script>
 
 <style>
   .container {
     display: flex;
+  }
+
+  :global(ul) {
+    list-style: none;
+    padding: 0;
+  }
+  :global(a) {
+    text-decoration: none;
   }
 </style>
 
@@ -18,22 +22,12 @@
 </svelte:head>
 
 <div class="container">
-  <aside>
-    <h2>Tags</h2>
-    <ul>
-      {#each $sortedSelectedTags as tag}
-        <Tag {tag} />
-      {/each}
-    </ul>
-    <ul>
-      {#each $notSelectedTags as tag}
-        <Tag {tag} />
-      {/each}
-    </ul>
-  </aside>
-
+  <Tags />
   <section>
-    <h1>Svelte Libraries</h1>
+    <p>
+      {$filteredLibrariesCount}
+      {$filteredLibrariesCount > 1 ? 'libraries' : 'library'}
+    </p>
     <ul>
       {#each $filteredLibraries as library}
         <li>{library.name}</li>

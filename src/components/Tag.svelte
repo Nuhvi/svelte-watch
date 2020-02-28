@@ -1,13 +1,28 @@
 <script>
-  import { selectedTags } from "../data/stores";
   export let tag;
+  export let isSelected = false;
+  export let clickHandler = () => {};
+  import { fade } from "svelte/transition";
 
-  $: isSelected = $selectedTags.has(tag);
-
-  const clickHandler = () => {
-    isSelected ? $selectedTags.delete(tag) : $selectedTags.add(tag);
-    $selectedTags = $selectedTags;
-  };
+  $: capitalizedTag = tag[0].toUpperCase() + tag.slice(1);
 </script>
 
-<li on:click={clickHandler}>{tag},{isSelected}</li>
+<style>
+  a {
+    display: inline-block;
+    font-weight: 500;
+    color: rgba(255, 62, 0, 0.5);
+    background: rgba(255, 62, 0, 0.18);
+    padding: 0.25em 1em;
+    border-radius: 100em;
+  }
+
+  .isSelected {
+    color: rgba(255, 62, 0, 1);
+    background: rgba(255, 62, 0, 0.2);
+  }
+</style>
+
+<a on:click|preventDefault={clickHandler} href="\" class:isSelected>
+  {capitalizedTag}
+</a>

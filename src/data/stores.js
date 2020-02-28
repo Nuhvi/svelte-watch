@@ -18,14 +18,15 @@ const filterLibrariesByTags = (libraries, selectedTags) => {
 
   return libraries.filter((lib) => {
     for (let tag of lib.tags) {
-      return selectedTags.has(tag);
+      if (selectedTags.has(tag)) return true;
     }
+    return false;
   });
 };
 
 // Stores
 export const libraries = writable(librariesJson);
-export const tags = writable(tagsFromLibraries(librariesJson));
+export const allTags = writable(tagsFromLibraries(librariesJson));
 export const selectedTags = writable(new Set());
 
 // Selectors
@@ -35,11 +36,7 @@ export const filteredLibraries = derived(
     filterLibrariesByTags($libraries, $selectedTags),
 );
 
-export const notSelectedTags = derived(
-  [tags, selectedTags],
-  ([$tags, $selectedTags]) => $tags.filter((tag) => !$selectedTags.has(tag)),
-);
-
-export const sortedSelectedTags = derived(selectedTags, ($selectedTags) =>
-  Array.from($selectedTags).sort(),
+export const filteredLibrariesCount = derived(
+  filteredLibraries,
+  ($filteredLibraries) => $filteredLibraries.length,
 );
