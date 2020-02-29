@@ -1,5 +1,5 @@
 <script>
-  import { allTags, selectedTags, searchInput } from "../data/stores";
+  import { allTags, selectedTags, searchInput } from "..a/stores";
   import Tag from "../components/Tag";
 
   $: sortedSelectedTags = Array.from($selectedTags);

@@ -1,5 +1,5 @@
 <script>
-  import { selectedTags } from "../data/stores";
+  import { selectedTags } from "../stores";
   export let tag;
   export let isSelected = false;
   export let clickHandler = () => {};

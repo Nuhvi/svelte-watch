@@ -1,5 +1,5 @@
 <script>
-  import { selectedTags } from "../data/stores";
+  import { selectedTags } from "../stores";
   import Tag from "./Tag";
   export let library = {};
 
