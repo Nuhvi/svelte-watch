@@ -1,8 +1,9 @@
 import * as functions from 'firebase-functions';
+import githubApi from './api_github';
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
 export const helloWorld = functions.https.onRequest((request, response) => {
-  response.send('Hello from Svelte!');
+  githubApi
+    .getPackageJSON('https://github.com/c0bra/svelma')
+    .then((data) => response.send(data))
+    .catch((err) => response.send(err));
 });
