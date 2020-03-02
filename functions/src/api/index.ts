@@ -1,6 +1,5 @@
-import { getRepoData, getRecentReleaseData } from './github';
+import * as githubAPI from './github';
 
 export default {
-  getRepoData,
-  getRecentReleaseData,
+  ...githubAPI,
 };
