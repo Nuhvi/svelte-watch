@@ -3,6 +3,7 @@ import api from './api';
 
 export default functions.https.onRequest(async (request, response) => {
   const url = request.query.url;
+  if (!url) response.send('no url was given');
   try {
     const repoData = await api.getRepoData(url);
     const releaseData = await api.getRecentReleaseData(url);
