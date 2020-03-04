@@ -8,3 +8,6 @@ yarn-error.log
 # firebase
 .firebase/*.cache
 *debug.log
+
+#env
+.env

@@ -1,5 +1,7 @@
 import { writable, derived } from 'svelte/store';
-import librariesJson from './libraries.json';
+import { collectionData } from 'rxfire/firestore';
+import { startWith } from 'rxjs/operators';
+import db from './Firebase';
 
 const tagsFromLibraries = (librares) => {
   const tags = new Set();
@@ -14,6 +16,8 @@ const tagsFromLibraries = (librares) => {
 };
 
 const filterLibrariesByTags = (libraries, selectedTags) => {
+  if (!libraries || !selectedTags) return null;
+
   if (!selectedTags || selectedTags.size === 0) return libraries;
   return libraries.filter((lib) => {
     for (let tag of lib.tags) {
@@ -24,16 +28,23 @@ const filterLibrariesByTags = (libraries, selectedTags) => {
 };
 
 const filterLibrariesBySearchInput = (libraries, searchInput) => {
-  if (!searchInput || searchInput.length === 0) return libraries;
+  if (!libraries || !searchInput || searchInput.length === 0) return libraries;
 
   return libraries.filter((lib) => {
     return JSON.stringify(lib).indexOf(searchInput) > 0;
   });
 };
 
+const queries = {
+  libraries: db.collection('libraries'),
+};
 // Stores
-export const libraries = writable(librariesJson);
-export const allTags = writable(tagsFromLibraries(librariesJson));
+export const libraries = collectionData(queries.libraries).pipe(
+  startWith(null),
+);
+export const allTags = derived(libraries, ($libraries) =>
+  tagsFromLibraries($libraries || []),
+);
 export const selectedTags = writable(new Set());
 export const searchInput = writable('');
 
