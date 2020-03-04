@@ -16,24 +16,6 @@ const handleError = (error: any) => {
   return {};
 };
 
-// const decode64 = (raw: string) => Buffer.from(raw, 'base64').toString();
-
-// const getPackageJSON = (url: string) => {
-//   const target = reposPath(url) + '/contents/package.json';
-
-//   return axios
-//     .get(target)
-//     .then((res) => JSON.parse(decode64(res.data.content)))
-//     .catch((err) => `Failed to fetch ${target}`);
-// };
-
-// const getInfo = (url: string) => {
-//   return getPackageJSON(url).then((data) => {
-//     const { name, version, description, keywords } = data;
-//     return { name, version, description, keywords };
-//   });
-// };
-
 export const getRepoData = async (url: string) => {
   const target = reposPath(url);
 
@@ -93,18 +75,15 @@ export const getCommitsData = async (url: string) => {
     const response = await axios.get(target);
     const commits = response.data;
 
-    const recentCommitsCounts = commits.filter((item: any) =>
+    const recentCommitsCount = commits.filter((item: any) =>
       isRecentThan(item.commit.author.date, 90),
     ).length;
 
     return {
-      recentCommitsCounts,
-      hasRecentCommits: recentCommitsCounts > 5,
+      recentCommitsCount,
+      hasRecentCommits: recentCommitsCount > 5,
     };
   } catch (error) {
     return handleError(error);
   }
 };
-
-// Need
-// Star Status :: Is the Github star count in the top 10% of plugins?

@@ -1,2 +1,2 @@
-export { default as uploadManulData } from './uploadManulData';
-export { default as fetchStats } from './updateStats';
+export * from './uploadManulData';
+export * from './updateStats';

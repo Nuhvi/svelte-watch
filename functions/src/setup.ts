@@ -1,7 +1,7 @@
 import * as admin from 'firebase-admin';
-import * as functions from 'firebase-functions';
+import * as firebaseFn from 'firebase-functions';
 
 admin.initializeApp();
-const database = admin.firestore();
+const db = admin.firestore();
 
-export { functions, database };
+export { firebaseFn, db };
