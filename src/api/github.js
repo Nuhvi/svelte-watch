@@ -4,19 +4,19 @@ const BASE_ENDPOINT = 'https://api.github.com/';
 
 // Helpers
 
-const fullName = (url: string) => url.split('github.com/')[1];
+const fullName = (url) => url.split('github.com/')[1];
 
-const reposPath = (url: string) => BASE_ENDPOINT + 'repos/' + fullName(url);
+const reposPath = (url) => BASE_ENDPOINT + 'repos/' + fullName(url);
 
-const isRecentThan = (date: string, days: number) =>
+const isRecentThan = (date, days) =>
   new Date(date).getTime() > new Date().getTime() - days * 86400000;
 
-const handleError = (error: any) => {
+const handleError = (error) => {
   console.log(error && error.message);
   return {};
 };
 
-export const getRepoData = async (url: string) => {
+export const getRepoData = async (url) => {
   const target = reposPath(url);
 
   try {
@@ -33,7 +33,7 @@ export const getRepoData = async (url: string) => {
   }
 };
 
-export const getRecentReleaseData = async (url: string) => {
+export const getRecentReleaseData = async (url) => {
   const target = reposPath(url) + '/releases/latest';
 
   try {
@@ -51,7 +51,7 @@ export const getRecentReleaseData = async (url: string) => {
   }
 };
 
-export const getContributorsData = async (url: string) => {
+export const getContributorsData = async (url) => {
   const target = reposPath(url) + '/contributors';
 
   try {
@@ -68,14 +68,14 @@ export const getContributorsData = async (url: string) => {
   }
 };
 
-export const getCommitsData = async (url: string) => {
+export const getCommitsData = async (url) => {
   const target = reposPath(url) + '/commits';
 
   try {
     const response = await axios.get(target);
     const commits = response.data;
 
-    const recentCommitsCount = commits.filter((item: any) =>
+    const recentCommitsCount = commits.filter((item) =>
       isRecentThan(item.commit.author.date, 90),
     ).length;
 
