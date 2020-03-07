@@ -14,11 +14,9 @@
   "dependencies": {
     "axios": "^0.19.2",
     "compression": "^1.7.1",
-    "firebase": "^7.9.3",
     "polka": "next",
-    "rxfire": "^3.9.15",
-    "rxjs": "^6.5.4",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "store": "^2.0.12"
   },
   "devDependencies": {
     "dotenv-webpack": "^1.7.0",
