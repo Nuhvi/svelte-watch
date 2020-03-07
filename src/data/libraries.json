@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "Sat Mar 07 2020 15:12:13 GMT+0300 (GMT+03:00)",
+  "lastUpdate": "Sat Feb 01 2020 15:12:13 GMT+0300 (GMT+03:00)",
   "data": [
     {
       "name": "svelte-typewriter",
@@ -8,7 +8,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 33,
+      "description": "A simple and reusable typewriter effect for your Svelte applications",
+      "last30DaysDownloadsCount": 528
     },
     {
       "name": "svelte-websocket-store",
@@ -17,7 +20,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 8,
+      "description": "svelte store with a websocket backend",
+      "last30DaysDownloadsCount": 108
     },
     {
       "name": "svelte-tags-input",
@@ -26,7 +32,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 10,
+      "description": "Svelte tags input is a component to use with Svelte and easily enter tags and customize some functions.",
+      "last30DaysDownloadsCount": 51
     },
     {
       "name": "carbon-components-svelte",
@@ -35,7 +44,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 90,
+      "description": "Svelte implementation of the Carbon Design System",
+      "last30DaysDownloadsCount": 1131
     },
     {
       "name": "svelma",
@@ -44,7 +56,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 233,
+      "description": "Bulma components for Svelte",
+      "last30DaysDownloadsCount": 834
     },
     {
       "name": "smelte",
@@ -53,7 +68,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 342,
+      "description": "UI framework with material components built with Svelte and Tailwind CSS",
+      "last30DaysDownloadsCount": 1900
     },
     {
       "name": "svelte-toolbox",
@@ -62,7 +80,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 54,
+      "description": "A UI component library for Svelte implementing Google's Material Design specification",
+      "last30DaysDownloadsCount": 2262
     },
     {
       "name": "svelte-material-ui",
@@ -71,7 +92,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 689,
+      "description": "Svelte Material UI Components",
+      "last30DaysDownloadsCount": 1706
     },
     {
       "name": "svelteify",
@@ -80,7 +104,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 24,
+      "description": "📲 Customizable and dependencies-less Material components with Svelte",
+      "last30DaysDownloadsCount": 9
     },
     {
       "name": "sveltemantic",
@@ -89,7 +116,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 36,
+      "description": "Fomantic-UI components for Svelte 3",
+      "last30DaysDownloadsCount": 15
     },
     {
       "name": "sveltestrap",
@@ -98,7 +128,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 251,
+      "description": "Bootstrap 4 components for Svelte",
+      "last30DaysDownloadsCount": 3063
     },
     {
       "name": "svelte-ui",
@@ -107,7 +140,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 104,
+      "description": "Simple Svelte 3 UI components",
+      "last30DaysDownloadsCount": 24
     },
     {
       "name": "svmd",
@@ -116,7 +152,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 6,
+      "description": "Material design components for Svelte",
+      "last30DaysDownloadsCount": 15
     },
     {
       "name": "svelte-chota",
@@ -125,7 +164,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 34,
+      "description": "Svelte UI components based on super lightweight chota CSS framework.",
+      "last30DaysDownloadsCount": 545
     },
     {
       "name": "@zooplus/zoo-web-components",
@@ -134,7 +176,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 17,
+      "description": "Web-components library."
     },
     {
       "name": "@sveltejs/svelte-virtual-list",
@@ -143,7 +187,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 213,
+      "description": "A virtual list component for Svelte apps"
     },
     {
       "name": "@sveltejs/svelte-scroller",
@@ -152,7 +198,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 89,
+      "description": "A <Scroller> component for Svelte apps"
     },
     {
       "name": "@sveltejs/svelte-subdivide",
@@ -161,7 +209,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 73,
+      "description": "A component for building Blender-style layouts in Svelte apps"
     },
     {
       "name": "svelte-grid",
@@ -170,7 +220,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 237,
+      "description": "A responsive, draggable and resizable grid layout, for Svelte.",
+      "last30DaysDownloadsCount": 1002
     },
     {
       "name": "svelte-sortable-list",
@@ -179,7 +232,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 26,
+      "description": "A svelte 3 component that implements a list with animated drag-n-drop functionality. ",
+      "last30DaysDownloadsCount": 379
     },
     {
       "name": "@beyonk/svelte-carousel",
@@ -188,7 +244,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 57,
+      "description": "A super lightweight, super simple Carousel for Svelte 3",
+      "last30DaysDownloadsCount": 0
     },
     {
       "name": "multicarousel",
@@ -197,7 +256,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 25,
+      "description": "A dependency free multiple item JavaScript carousel.",
+      "last30DaysDownloadsCount": 15
     },
     {
       "name": "svelte-swipe",
@@ -206,7 +268,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 40,
+      "description": "Svelte Swipe with zero dependencies :fire: :boom:",
+      "last30DaysDownloadsCount": 111
     },
     {
       "name": "svelte-tabs",
@@ -215,7 +280,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 34,
+      "description": "Tabs component for Svelte",
+      "last30DaysDownloadsCount": 114
     },
     {
       "name": "svelte-media-query",
@@ -224,7 +292,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 22,
+      "description": "CSS media queries in Svelte",
+      "last30DaysDownloadsCount": 57
     },
     {
       "name": "svelte-match-media",
@@ -233,7 +304,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 14,
+      "description": "a matchMedia plugin for svelte 3",
+      "last30DaysDownloadsCount": 92
     },
     {
       "name": "svelte-watch-resize",
@@ -242,7 +316,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 8,
+      "description": "Watch element resize in Svelte",
+      "last30DaysDownloadsCount": 138
     },
     {
       "name": "svelte-simple-modal",
@@ -251,7 +328,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 29,
+      "description": "A simple, small, and content-agnostic modal for Svelte v3",
+      "last30DaysDownloadsCount": 371
     },
     {
       "name": "svelte-popover",
@@ -260,7 +340,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 27,
+      "description": "A smart popover component for Svelte",
+      "last30DaysDownloadsCount": 95
     },
     {
       "name": "svelte-headroom",
@@ -269,7 +352,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 30,
+      "description": "A Svelte component to hide your header on scroll.",
+      "last30DaysDownloadsCount": 403
     },
     {
       "name": "@sveltejs/svelte-repl",
@@ -278,7 +364,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 101,
+      "description": "The <Repl> component used on the Svelte website"
     },
     {
       "name": "svelte-color-picker",
@@ -287,7 +375,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 33,
+      "description": "A color picker component for svelte",
+      "last30DaysDownloadsCount": 176
     },
     {
       "name": "svelte-select",
@@ -296,7 +387,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 191,
+      "description": "A select component for Svelte apps",
+      "last30DaysDownloadsCount": 6058
     },
     {
       "name": "svelte-rate-it",
@@ -305,7 +399,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 24,
+      "description": "Rate component for Svelte",
+      "last30DaysDownloadsCount": 13
     },
     {
       "name": "waxwing-rating",
@@ -314,7 +411,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 5,
+      "description": "🐦⭐ rating widget for the web",
+      "last30DaysDownloadsCount": 53
     },
     {
       "name": "@beyonk/gdpr-cookie-consent-banner",
@@ -323,7 +423,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 19,
+      "description": "A GDPR compliant cookie consent banner implementation",
+      "last30DaysDownloadsCount": 249
     },
     {
       "name": "svelte-inspect",
@@ -332,7 +435,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 21,
+      "description": "console.log()-like interactive inspector for Svelte 3",
+      "last30DaysDownloadsCount": 564
     },
     {
       "name": "@okrad/svelte-progressbar",
@@ -341,7 +447,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 18,
+      "description": "A multiseries, SVG progressbar component made with Svelte"
     },
     {
       "name": "Browser REPL JS",
@@ -350,7 +458,9 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 3,
+      "description": "A Javascript REPL (code editor and code results) component using svelte"
     },
     {
       "name": "Simple Svelte Autocomplete",
@@ -359,7 +469,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 17,
+      "description": "Simple Autocomplete / typeahead component for Svelte",
+      "last30DaysDownloadsCount": 421
     },
     {
       "name": "svelte-ruler",
@@ -368,7 +481,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 150
     },
     {
       "name": "svelte-icons",
@@ -377,7 +491,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 30,
+      "description": "Icon components for svelte",
+      "last30DaysDownloadsCount": 1022
     },
     {
       "name": "svelte-awesome",
@@ -386,7 +503,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 109,
+      "description": "Awesome SVG icon component for Svelte JS, built with Font Awesome icons. Based on Justineo/vue-awesome",
+      "last30DaysDownloadsCount": 8633
     },
     {
       "name": "svelte-fa",
@@ -395,7 +515,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 25,
+      "description": "Tiny FontAwesome 5 component for Svelte",
+      "last30DaysDownloadsCount": 685
     },
     {
       "name": "fa-svelte",
@@ -404,7 +527,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 28,
+      "description": "Font Awesome 5 for svelte.js",
+      "last30DaysDownloadsCount": 1642
     },
     {
       "name": "svelte-feather-icons",
@@ -413,7 +539,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 25,
+      "description": null,
+      "last30DaysDownloadsCount": 12050
     },
     {
       "name": "svelte-simple-icons",
@@ -422,7 +551,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 4,
+      "description": "Simple Brand Icons for Svelte",
+      "last30DaysDownloadsCount": 20
     },
     {
       "name": "@spaceavocado/svelte-form",
@@ -431,7 +563,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 13,
+      "description": "Simple Svelte form model handler and input validations.",
+      "last30DaysDownloadsCount": 12
     },
     {
       "name": "svelte-forms",
@@ -440,7 +575,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 45,
+      "description": "Svelte forms validation made easy",
+      "last30DaysDownloadsCount": 1119
     },
     {
       "name": "svelte-forms-lib",
@@ -449,7 +587,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 60,
+      "description": "📝A lightweight library for managing forms in Svelte",
+      "last30DaysDownloadsCount": 520
     },
     {
       "name": "sveltejs-forms",
@@ -458,7 +599,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 58,
+      "description": "Declarative forms for Svelte",
+      "last30DaysDownloadsCount": 1137
     },
     {
       "name": "svelte-waypoint",
@@ -467,7 +611,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 35,
+      "description": "Lazyload images or anything component for Svelte",
+      "last30DaysDownloadsCount": 985
     },
     {
       "name": "svelte-image",
@@ -476,7 +623,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 139,
+      "description": "Image (pre)processing with Sharp for Svelte",
+      "last30DaysDownloadsCount": 545
     },
     {
       "name": "svelte-image-encoder",
@@ -485,7 +635,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 21,
+      "description": "An <ImgEncoder> Svelte component for editing and compressing profile pictures before upload to a server.",
+      "last30DaysDownloadsCount": 904
     },
     {
       "name": "svelte-marquee",
@@ -494,7 +647,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 1,
+      "description": "Marquee fully responsive and adaptive for Svelte",
+      "last30DaysDownloadsCount": 182
     },
     {
       "name": "svelte-easy-crop",
@@ -503,7 +659,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 43,
+      "description": "A Svelte component to crop images with easy interactions",
+      "last30DaysDownloadsCount": 856
     },
     {
       "name": "echarts-for-svelte",
@@ -512,7 +671,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 11,
+      "description": "📈 Baidu Echarts(v3.0 & v4.0) components for Svelte wrapper.",
+      "last30DaysDownloadsCount": 55
     },
     {
       "name": "svelte-fusioncharts",
@@ -521,7 +683,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 57
     },
     {
       "name": "svelte-calendar",
@@ -530,7 +693,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 110,
+      "description": "A lightweight datepicker with neat animations and a unique UX.",
+      "last30DaysDownloadsCount": 1761
     },
     {
       "name": "svelte-flatpickr",
@@ -539,7 +705,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 25,
+      "description": "Flatpickr component for svelte",
+      "last30DaysDownloadsCount": 1069
     },
     {
       "name": "@beyonk/svelte-notifications",
@@ -548,7 +717,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 61,
+      "description": "Svelte toast notifications component that can be used in any JS application",
+      "last30DaysDownloadsCount": 266
     },
     {
       "name": "svelte-notifications",
@@ -557,7 +729,10 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "stars": 110,
+      "description": "Simple and flexible notifications system",
+      "last30DaysDownloadsCount": 266
     },
     {
       "name": "@beyonk/svelte-mapbox",
@@ -584,7 +759,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 194
     },
     {
       "name": "svelte-i18n",
@@ -593,7 +769,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 4976
     },
     {
       "name": "svelte-intl",
@@ -602,7 +779,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 88
     },
     {
       "name": "svelte-writable-derived",
@@ -611,7 +789,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 731
     },
     {
       "name": "svelte-apollo",
@@ -620,7 +799,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 4087
     },
     {
       "name": "Svelte for Meteor",
@@ -638,7 +818,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 235
     },
     {
       "name": "svelte-observable",
@@ -647,7 +828,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 4121
     },
     {
       "name": "svelte-mobx",
@@ -656,7 +838,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 9
     },
     {
       "name": "svelte-redux-connect",
@@ -665,7 +848,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 114
     },
     {
       "name": "svql",
@@ -674,7 +858,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 952
     },
     {
       "name": "@sveltejs/gestures",
@@ -683,7 +868,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 1835
     },
     {
       "name": "@beyonk/svelte-scrollspy",
@@ -701,7 +887,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 2992
     },
     {
       "name": "svelte-loadable",
@@ -710,7 +897,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 479
     },
     {
       "name": "svelte-content-loader",
@@ -719,7 +907,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 102
     },
     {
       "name": "svelte-viewpoint",
@@ -728,7 +917,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 230
     },
     {
       "name": "@beyonk/svelte-google-analytics",
@@ -782,7 +972,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 22
     },
     {
       "name": "prettier-plugin-svelte",
@@ -791,7 +982,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 19719
     },
     {
       "name": "svelte-inspector",
@@ -800,7 +992,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 5
     },
     {
       "name": "svelte-dev-helper",
@@ -809,7 +1002,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 45513
     },
     {
       "name": "@svelte-docs/core",
@@ -827,7 +1021,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 67
     },
     {
       "name": "svelte-css-vars",
@@ -836,7 +1031,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 851
     },
     {
       "name": "sveltejs/template",
@@ -845,7 +1041,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 3580
     },
     {
       "name": "sveltejs/template-webpack",
@@ -863,7 +1060,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 7
     },
     {
       "name": "sveltejs/template-custom-element",
@@ -1178,7 +1376,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 183238
     },
     {
       "name": "SteveALee/svelte-code-cypress-project",
@@ -1205,7 +1404,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 0
     },
     {
       "name": "LunaTK/svelte-web-component-builder",
@@ -1259,7 +1459,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 35
     },
     {
       "name": "lpshanley/svelte-phonegap",
@@ -1277,7 +1478,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 46
     },
     {
       "name": "jest-transform-svelte",
@@ -1286,7 +1488,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 12814
     },
     {
       "name": "svelte-test",
@@ -1295,7 +1498,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 631
     },
     {
       "name": "storybookjs",
@@ -1304,7 +1508,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 149086
     },
     {
       "name": "svelte-jest",
@@ -1313,7 +1518,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 8704
     },
     {
       "name": "svelte-routing",
@@ -1322,7 +1528,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 6496
     },
     {
       "name": "svelte-state-renderer",
@@ -1331,7 +1538,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 56
     },
     {
       "name": "svelte-spa-router",
@@ -1340,7 +1548,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 3768
     },
     {
       "name": "svero",
@@ -1349,7 +1558,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 646
     },
     {
       "name": "swheel",
@@ -1358,7 +1568,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 25
     },
     {
       "name": "@jamen/svelte-router",
@@ -1367,7 +1578,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 65
     },
     {
       "name": "svelte-hash-router",
@@ -1376,7 +1588,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 376
     },
     {
       "name": "svelte-easyroute",
@@ -1385,7 +1598,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 0
     },
     {
       "name": "svelte-router-spa",
@@ -1394,7 +1608,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 65
     },
     {
       "name": "@spaceavocado/svelte-router",
@@ -1403,7 +1618,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 65
     },
     {
       "name": "svelte-page-router",
@@ -1412,7 +1628,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 62
     },
     {
       "name": "svelte-router",
@@ -1421,7 +1638,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 65
     },
     {
       "name": "svelte-navaid",
@@ -1430,7 +1648,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 34
     },
     {
       "name": "@slick-for/svelte",
@@ -1448,7 +1667,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 119
     },
     {
       "name": "routify",
@@ -1457,7 +1677,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 488
     },
     {
       "name": "yrv",
@@ -1466,7 +1687,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 2270
     },
     {
       "name": "svelte-loader",
@@ -1475,7 +1697,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 49202
     },
     {
       "name": "rollup-plugin-svelte",
@@ -1484,7 +1707,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 67974
     },
     {
       "name": "svelvet",
@@ -1493,7 +1717,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 617
     },
     {
       "name": "svelte-preprocess",
@@ -1502,7 +1727,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 29722
     },
     {
       "name": "mdsvex",
@@ -1520,7 +1746,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 222
     },
     {
       "name": "svelte-ts-preprocess",
@@ -1529,7 +1756,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 801
     },
     {
       "name": "@pyoner/svelte-ts-preprocess",
@@ -1547,7 +1775,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 1058
     },
     {
       "name": "svelte-preprocess-sass",
@@ -1556,7 +1785,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 2722
     },
     {
       "name": "svelte-preprocess-less",
@@ -1565,7 +1795,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 289
     },
     {
       "name": "@modular-css/svelte",
@@ -1574,7 +1805,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 136
     },
     {
       "name": "@pwa/cli",
@@ -1583,7 +1815,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 958
     },
     {
       "name": "baelte",
@@ -1592,7 +1825,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 14
     },
     {
       "name": "svb",
@@ -1601,7 +1835,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 14
     },
     {
       "name": "svelte-vscode",
@@ -1655,7 +1890,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 424
     },
     {
       "name": "vscode-svelte-component-extractor",
@@ -1673,7 +1909,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 270
     },
     {
       "name": "svelte-native",
@@ -1682,7 +1919,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 849
     },
     {
       "name": "@sveltejs/gl",
@@ -1691,7 +1929,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 31010
     },
     {
       "name": "svelte-frappe-charts",
@@ -1700,7 +1939,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 88
     },
     {
       "name": "svelte-fullcalendar",
@@ -1709,7 +1949,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 357
     },
     {
       "name": "svelte-component-template",
@@ -1727,7 +1968,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 39
     },
     {
       "name": "Ionic Svelte UI demo",
@@ -1759,7 +2001,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 48
     },
     {
       "name": "svelte-progresscircle",
@@ -1768,7 +2011,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 130
     },
     {
       "name": "svelte-eventbus",
@@ -1777,7 +2021,8 @@
       "hasTests": "pending",
       "hasExamples": "pending",
       "hasDocumentedAPI": "pending",
-      "hasCIsetup": "pending"
+      "hasCIsetup": "pending",
+      "last30DaysDownloadsCount": 75
     },
     {
       "name": "nye/svelte-electron-better-sqlite3-starter",

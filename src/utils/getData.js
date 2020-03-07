@@ -24,11 +24,13 @@ const getData = async () => {
     data = Store.get('data');
     lastUpdate = Store.get('lastUpdate');
   } else {
-    updateStorage(data, jsonLibraries.lastUpdate);
+    updateStorage(data, lastUpdate);
   }
 
-  // if (date(lastUpdate) < daysAgo(7))
-  data = updateStats(data);
+  if (date(lastUpdate) < daysAgo(7)) {
+    data = updateStats(data);
+    updateStorage(data, new Date());
+  }
 
   return data;
 };

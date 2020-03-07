@@ -6,14 +6,14 @@ const BASE_ENDPOINT = 'https://api.npmjs.org/';
 
 const pakageName = (url) => url.split('github.com/')[1].split('/')[1];
 
-const handleError = (error) => {
-  console.log(error && error.message);
+const handleError = (error, target) => {
+  // console.log(`NPM fetch: ${error}, target was: ${target}`);
   return {};
 };
 
 export const getRecentDownloadsData = async (url) => {
   const target =
-    BASE_ENDPOINT + 'downloads/range/last-month/' + pakageName(url);
+    BASE_ENDPOINT + 'downloads/point/last-month/' + pakageName(url);
 
   try {
     const response = await axios.get(target);
@@ -21,9 +21,9 @@ export const getRecentDownloadsData = async (url) => {
     const { downloads } = data;
 
     return {
-      recentDownloadsCount: downloads.length,
+      last30DaysDownloadsCount: downloads,
     };
   } catch (error) {
-    return handleError(error);
+    return handleError(error, target);
   }
 };

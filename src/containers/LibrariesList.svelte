@@ -4,20 +4,20 @@
 </script>
 
 <style>
-  /* .count {
+  .count {
     margin: 0;
     color: #888c94;
-  } */
+  }
 </style>
 
 {#if $filteredLibraries === false}
   Oops! cant retrieve data!
 {:else if $filteredLibraries}
   <section>
-    <!-- <p class="count">
+    <p class="count">
       {$filteredLibrariesCount}
       {$filteredLibrariesCount > 1 ? 'Libraries' : 'Library'}
-    </p> -->
+    </p>
     <ul>
       {#each $filteredLibraries as library}
         <Library {library} />
