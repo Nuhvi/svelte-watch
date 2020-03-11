@@ -6,9 +6,10 @@ const updateStorage = ({ data, updatedAt }) => {
   Store.set('updatedAt', updatedAt);
 };
 
-const daysAgo = (days = 0) => {
-  const date = new Date();
-  return date.setDate(date.getDate() - days);
+const isRecentThanDaysAgo = (date, days = 0) => {
+  const givenData = new Date(date);
+  console.log({ givenData: givenData, days });
+  return new Date(date) > new Date().getTime() - days * 86400000;
 };
 
 const getData = async () => {
@@ -16,7 +17,7 @@ const getData = async () => {
 
   const storageUpdatedAt = Store.get('updatedAt');
 
-  if (storageUpdatedAt && date(storageUpdatedAt) > daysAgo(7)) {
+  if (storageUpdatedAt && isRecentThanDaysAgo(storageUpdatedAt, 7)) {
     const data = Store.get('data');
     stats = { data, updatedAt: storageUpdatedAt };
   } else {
