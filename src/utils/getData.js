@@ -1,38 +1,30 @@
-import jsonLibraries from '../data/libraries.json';
 import Store from 'store';
-import updateStats from './updateStats';
+import fetchStats from './api';
 
-const updateStorage = (data, lastUpdate) => {
+const updateStorage = ({ data, updatedAt }) => {
   Store.set('data', data);
-  Store.set('lastUpdate', lastUpdate);
+  Store.set('updatedAt', updatedAt);
 };
 
-const date = (str) => new Date(str);
-
-const daysAgo = (days) => {
+const daysAgo = (days = 0) => {
   const date = new Date();
   return date.setDate(date.getDate() - days);
 };
 
 const getData = async () => {
-  let data = jsonLibraries.data;
-  let lastUpdate = jsonLibraries.lastUpdate;
+  let stats = {};
 
-  // substitute libraries from JSON with the local storage
-  const storageLastUpdate = Store.get('lastUpdate');
-  if (storageLastUpdate && date(storageLastUpdate) > date(lastUpdate)) {
-    data = Store.get('data');
-    lastUpdate = Store.get('lastUpdate');
+  const storageUpdatedAt = Store.get('updatedAt');
+
+  if (storageUpdatedAt && date(storageUpdatedAt) > daysAgo(7)) {
+    const data = Store.get('data');
+    stats = { data, updatedAt: storageUpdatedAt };
   } else {
-    updateStorage(data, lastUpdate);
+    stats = await fetchStats();
+    updateStorage(stats);
   }
 
-  if (date(lastUpdate) < daysAgo(7)) {
-    data = updateStats(data);
-    updateStorage(data, new Date());
-  }
-
-  return data;
+  return stats;
 };
 
 export default () =>

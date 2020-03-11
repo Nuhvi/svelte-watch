@@ -9,6 +9,7 @@ const dev = mode === 'development';
 const alias = { svelte: path.resolve('node_modules', 'svelte') };
 const extensions = ['.mjs', '.js', '.json', '.svelte', '.html'];
 const mainFields = ['svelte', 'module', 'browser', 'main'];
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   client: {
@@ -35,6 +36,7 @@ module.exports = {
     plugins: [
       // pending https://github.com/sveltejs/svelte/issues/2377
       // dev && new webpack.HotModuleReplacementPlugin(),
+      new Dotenv(),
       new webpack.DefinePlugin({
         'process.browser': true,
         'process.env.NODE_ENV': JSON.stringify(mode),

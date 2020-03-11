@@ -8,8 +8,11 @@ import {
 
 // Stores
 export let libraries = writable(null);
-getData().then((storageData) => {
-  libraries.set(storageData);
+export let updatedAt = writable(null);
+
+getData().then((stats) => {
+  updatedAt.set(stats.updatedAt);
+  libraries.set(stats.data);
 });
 
 export const allTags = derived(libraries, ($libraries) =>
@@ -30,5 +33,5 @@ export const filteredLibraries = derived(
 
 export const filteredLibrariesCount = derived(
   filteredLibraries,
-  ($filteredLibraries) => $filteredLibraries.length,
+  ($filteredLibraries) => $filteredLibraries && $filteredLibraries.length,
 );

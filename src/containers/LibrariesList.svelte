@@ -1,5 +1,5 @@
 <script>
-  import { filteredLibraries, filteredLibrariesCount } from "../stores";
+  import { libraries, filteredLibrariesCount } from "../stores";
   import Library from "../components/Library";
 </script>
 
@@ -10,16 +10,16 @@
   }
 </style>
 
-{#if $filteredLibraries === false}
+{#if $libraries === false}
   Oops! cant retrieve data!
-{:else if $filteredLibraries}
+{:else if $libraries}
   <section>
     <p class="count">
       {$filteredLibrariesCount}
       {$filteredLibrariesCount > 1 ? 'Libraries' : 'Library'}
     </p>
     <ul>
-      {#each $filteredLibraries as library}
+      {#each $libraries as library}
         <Library {library} />
       {/each}
     </ul>

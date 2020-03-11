@@ -1,24 +1,17 @@
-import { getRecentDownloadsData } from './npm';
-import {
-  getRepoData,
-  getRecentReleaseData,
-  getContributorsData,
-  getCommitsData,
-} from './github';
+import axios from 'axios';
 
-export default async (url) => {
-  if (!url) return 'no url was given';
-  const repoData = await getRepoData(url);
-  const releaseData = await getRecentReleaseData(url);
-  const contributorsData = await getContributorsData(url);
-  const commitsData = await getCommitsData(url);
-  const downloadsData = await getRecentDownloadsData(url);
-
-  return {
-    ...repoData,
-    ...releaseData,
-    ...contributorsData,
-    ...commitsData,
-    ...downloadsData,
-  };
+export default async () => {
+  try {
+    const response = await axios.get(
+      `${
+        process.env.NODE_ENV === 'development'
+          ? 'http://localhost:3000/'
+          : process.env.FETCH_STATS_URL
+      }`,
+    );
+    const stats = response.data;
+    return stats;
+  } catch (error) {
+    console.error({ error });
+  }
 };
