@@ -6,11 +6,8 @@ const updateStorage = ({ data, updatedAt }) => {
   Store.set('updatedAt', updatedAt);
 };
 
-const isRecentThanDaysAgo = (date, days = 0) => {
-  const givenData = new Date(date);
-  console.log({ givenData: givenData, days });
-  return new Date(date) > new Date().getTime() - days * 86400000;
-};
+const isRecentThanDaysAgo = (date, days = 0) =>
+  new Date(date) > new Date().getTime() - days * 86400000;
 
 const getData = async () => {
   let stats = {};

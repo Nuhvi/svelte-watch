@@ -55,7 +55,6 @@
     margin-bottom: 1em;
     font-family: inherit;
     font-weight: 500;
-    text-transform: capitalize;
   }
 
   input:focus {

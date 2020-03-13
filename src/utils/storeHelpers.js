@@ -26,6 +26,10 @@ export const filterLibrariesBySearchInput = (libraries, searchInput) => {
   if (!libraries || !searchInput || searchInput.length === 0) return libraries;
 
   return libraries.filter((lib) => {
-    return JSON.stringify(lib).indexOf(searchInput) > 0;
+    return (
+      JSON.stringify(lib)
+        .toLowerCase()
+        .indexOf(searchInput.toLowerCase()) > 0
+    );
   });
 };
